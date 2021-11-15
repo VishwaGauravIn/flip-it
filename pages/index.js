@@ -12,6 +12,7 @@ export default function Home() {
         <meta name="description" content="Flip/Toss a Coin in a minimal way"/>
         <meta name="keywords" content="Flip, Toss, Coin, heads, head, tails, tail"/>
         <meta name="author" content="Vishwa Gaurav"/>
+        <meta name="google-site-verification" content="VijKekS64TgePuSJ-w-tqGIc4kCJuw3lEklP5STaULo" />
       </Head>
       <ThemeToggle />
       <p className="text-gray-800 dark:text-red-400 text-5xl font-bold flex justify-center py-4">Flip-it</p>

@@ -26,7 +26,7 @@ export default function CoinFlip(params) {
     return(
         <>
         <div className="flex flex-col justify-center items-center">
-        <div className="flex flex-col justify-center items-center w-80 h-80 lg:w-96 lg:h-96 transparent border-4 dark:border-red-400 border-gray-800 rounded-lg m-4 lg:m-10 shadow-xl">
+        <div className="flex flex-col justify-center items-center w-80 h-80 lg:w-96 lg:h-96 transparent border-4 dark:border-red-400 border-gray-800 rounded-3xl m-4 lg:m-10 shadow-xl">
             <img src="/cointail.png" id="main-image" alt="" className="w-48 h-48 m-4 lg:m-10 rounded-lg animate-pulse"/>
             <button className=" p-2 rounded-3xl border-4 border-gray-800 dark:border-red-400 text-2xl text-gray-800 dark:text-red-400 hover:text-white hover:bg-gray-800 dark:hover:bg-red-400 dark:hover:text-white transform hover:scale-95 transition-transform duration-200 ease-in-out px-4 shadow-md" onClick={flipcoin}>Flip</button>
            {isLoaderVisible ? <LoaderBlock/> : null}
